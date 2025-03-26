@@ -1,0 +1,70 @@
+= Cenário Arquitetural: MultiNuvem Banco de Dados
+
+ifndef::env-gitlab[]
+image::../../cenario_arquitetural.PNG[,60%]
+endif::[]
+ifdef::env-gitlab[]
+image::../../images/cenario_arquitetural.PNG[,60%]
+endif::[]
+
+{blank} +
+
+
+*Nome:* Multinuvem - Banco de Dados
+
+*Status:* Ativo
+
+*Classe:* Nuvens Públicas
+
+*Tags:* Huawei, Oracle, AWS
+
+
+*Histórico de Revisões*
+
+|===
+| Data | Versão | Descrição | Autor
+
+| 27/12/2024
+| 1.0
+| Criação do Documento.
+| Marcus Vinicius, Walter Coutinho e Adelson DaSilva
+
+|===
+====== 6.1.1.1.2 API GeminiDB Mongo
+
+
+* Principais Aplicações: 
+
+Jogos
+
+
+* Principais Cenários:
+
+- Simgle Instance
+
+ifndef::env-gitlab[] 
+image::geminidb_mongo_single.png[,50%] 
+endif::[] 
+ifdef::env-gitlab[] 
+image::/geminidb_mongo_single.png[,50%] 
+endif::[]
+
+{blank} +
+
+
+- HA Instance
+
+ifndef::env-gitlab[] 
+image::geminidb_mongo_ha.png[,70%] 
+endif::[] 
+ifdef::env-gitlab[] 
+image::/geminidb_mongo_ha.png[,70%] 
+endif::[]
+
+
+* API compatível: Document-oriented API - MongoDB
+
+* Cenário: É um serviço de banco de dados NoSQL nativo da nuvem e compatível com MongoDB, que usa arquitetura desenvolvida pela Huawei com armazenamento e computação desacoplados.
+
+
+{blank} +
