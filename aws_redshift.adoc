@@ -46,7 +46,7 @@ ifndef::env-gitlab[]
 image::aws_redshift_arq.png[,70%] 
 endif::[] 
 ifdef::env-gitlab[] 
-image::../../images/aws_redshift_arq.png[,70%] 
+image::/aws_redshift_arq.png[,70%] 
 endif::[]
 
 {blank} +
