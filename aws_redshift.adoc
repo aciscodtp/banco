@@ -1,0 +1,56 @@
+= Cenário Arquitetural: MultiNuvem Banco de Dados
+
+ifndef::env-gitlab[]
+image::../../cenario_arquitetural.PNG[,60%]
+endif::[]
+ifdef::env-gitlab[]
+image::../../images/cenario_arquitetural.PNG[,60%]
+endif::[]
+
+{blank} +
+
+
+*Nome:* Multinuvem - Banco de Dados
+
+*Status:* Ativo
+
+*Classe:* Nuvens Públicas
+
+*Tags:* Huawei, Oracle, AWS
+
+
+*Histórico de Revisões*
+
+|===
+| Data | Versão | Descrição | Autor
+
+| 27/12/2024
+| 1.0
+| Criação do Documento.
+| Marcus Vinicius, Walter Coutinho e Adelson DaSilva
+
+|===
+===== 6.1.3.3 Amazon Redshift 
+
+
+* Principais Aplicações: 
+
+- Data warehouse
+
+* Cenário arquitetural:
+
+- Data warehouse do Amazon Redshift
+
+
+ifndef::env-gitlab[] 
+image::aws_redshift_arq.png[,70%] 
+endif::[] 
+ifdef::env-gitlab[] 
+image::../../images/aws_redshift_arq.png[,70%] 
+endif::[]
+
+{blank} +
+
+==== 6.1.3.1 IaC (Infrastructure-as-Code, infraestrutura como código)
+
+*Em construção*
