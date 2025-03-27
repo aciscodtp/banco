@@ -14,7 +14,7 @@ endif::[]
 | 27/12/2024
 | 1.0
 | Criação do Documento.
-| Marcus Vinicius, Walter Coutinho e Adelson DaSilva
+| Adelson DaSilva
 |===
 ===== Amazon Redshift 
 * Principais Aplicações: 
